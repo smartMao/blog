@@ -68,7 +68,7 @@
    <img src="images/4.3.1.png" />
    
 >- HTTP 应用程序收到一条带有 Connection 首部的报文时，接收端会解析发送端请求的所有选项，并将其应用，然后会在将此报文
-   转发给一下条地址之前，删除 Connection 首部以及 Connection 中列出的所有首部。而且
+   转发给一下条地址之前，删除 Connection 首部以及 Connection 中列出的所有首部。
     
     
     
