@@ -69,13 +69,72 @@
    
 >- HTTP 应用程序收到一条带有 Connection 首部的报文时，接收端会解析发送端请求的所有选项，并将其应用，然后会在将此报文
    转发给一下条地址之前，删除 Connection 首部以及 Connection 中列出的所有首部。
+   
+<br />
+
+**4.5.3 keep-alive 操作**
+
+>- 实现HTTP 1.0 keep-alive连接的客户端可以通过包含 Connection: Keep-Alive ; 首部请求将一条连接保持再打开的状态。
+>- 如果服务器原因为一下条请求连接保持在打开状态，那么就会在响应首部中包含相同的首部(即:包含Connection: Keep-Alive)。
+>- 如果响应首部没有Connection: Keep-Alive首部，客户端就认为服务器不支持 keep-alive ,会在发回响应报文之后关闭连接。
+
+![4.5.3.png](images/4.5.3.png)
+    
+<br />
+
+**4.5.5 Keep-Alive 连接的限制和规则**
+
+>- 代理和网关都必须执行 Connection 首部的规则，代理或网关必须在将报文转发出去或将其高速缓存之前，删除在 Connection 
+   首部中命名的所有首部字段以及 Connection 首部自身。
+>- 严格来说，不应该与无法确定是否支持 Connection 首部的代理服务器建立 keey-alive 连接，以防止出现"哑代理"的问题
     
     
     
-    
-    
-    
+**4.5.6 Keep-Alive 和哑代理**
+
+<img src="images/4.5.6A.png" width="70%" height="70%" />
+<img src="images/4.5.6B.png" width="70%" height="70%" />
+<img src="images/4.5.6C.png" width="70%" height="70%" />
+<img src="images/4.5.6D.png" width="70%" height="70%" />
+<img src="images/4.5.6E.png" width="70%" height="70%" />
+
+<br />
+
+####2.代理与逐跳首部####
+
+>- 为了避免此类的通信问题的发生，现在的代理都绝不能转发 Connection 首部，或者其中的字段名。因此，一个代理收到了 
+   Connection : keep-alive 首部，是不应该转发 Connection 首部，或所有名为 keey-alive 的首部。
+>- 另外，还有几个不能作为 Connection 首部值列出，也不能被代理转发或作为缓存响应使用的首部。
+    - Connection
+    - Keep-Alive
+    - Proxy-Authenticate
+    - Proxy-Authorization
+    - Trailer
+    - TE
+    - Transfer-Encoding
+    - Upgrade
+
+##4.5.8 HTTP 1.1 持久连接##
+
+>- 与HTTP 1.0+ 的 keep-alive 连接不同，HTTP 1.1 持久连接在默认情况下是激活的。除非你特别指明，否则HTTP 1.1 假定
+   所有的连接都是持久的。如果想要再事务处理结束之后将连接关闭，那么 HTTP 1.1 应用程序就必须向报文中添加一个：
+   connection:close 首部。
+
+
+##4.6 管道化连接##
+
+<img src="images/4.6.png" width="60%" height="60%" />
+
+
+##4.7.4 TCP正常关闭连接##
+>- TCP 连接是双向的，TCP连接的每一端都有一个输入队列和一个输出队列，用于数据的读或写，放入一端的输出队列中的数据最终最
+   出现在另一端的输入队列中。
+   
+   1. 完全关闭与半关闭
+   2. TCP关闭及重置错误
   
-    
+<img src="images/4.7.4.png" width="60%" height="60%" />
+<img src="images/4.7.4A.png" width="60%" height="60%" />
+   
     
 
