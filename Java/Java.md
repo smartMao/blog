@@ -34,6 +34,16 @@
 
 <img src="images/1.2.4.png"  />
     
+    
+##4.2.2 多重循环##
+
+<img src="images/4.2.2.png" width="60%" height="60%" />
+
+>- 普通的 break 在多重循环嵌套里, 只能退出一个循环, 但用 标示 可以指定 break 到哪里(标示名称自定义).
+
+<img src="images/4.2.2A.png" width="50%" height="50%" />
+
+
 
 
 
