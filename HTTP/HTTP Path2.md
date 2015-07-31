@@ -91,6 +91,12 @@
 <img src="images/7.7.png" width="70%" height="70%" />
 
 
+##9.4.7 HTML的robot-control元标签##
+
+<img src="images/9.4.7.png" width="60%" height="60%" />
+<img src="images/9.4.7B.png" width="100%" height="100%" />
+<img src="images/9.4.7A.png" width="70%" height="70%" />
+
 
 
 
