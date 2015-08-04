@@ -12,3 +12,8 @@
 ##20章 重定向与负载均衡##
 
 <img src="images/20.png" width="60%" height="60%" />
+
+
+##20.1 记录内容##
+
+<img src="images/21.1.png" width="70%" height="70%" />
