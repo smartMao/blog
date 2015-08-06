@@ -72,5 +72,14 @@
     - %wheel   ALL=(ALL)   ALL              (对wheel用户组sudo授权,使用sudo时需要密码)
     - %wheel   ALL=(ALL)   NOPASSWD:ALL     (对wheel用户组sudo授权,使用sudo时不需要密码)
 
-
+>- 在/etc/sudoers 文件授权给用户的时候还可以做一些限制：
+    - 例如：限制users用户组只能操作这些文件夹
+        <img src="images/2.2.6A.png" width="60%" height="60%" />
+    - 例如：限制users用户组禁止操作某些文件夹(关键在于 ! ，表示禁止使用)
+        <img src="images/2.2.6B.png" width="60%" height="60%" />
+    - 另外值得一说的是：普通用户可以使用sudo 切换到 root 上，而且用的还是普通用户的密码
+    
+        <img src="images/2.2.6C.png" width="60%" height="60%" />
+    - 原理是sudo命令就是 root 用户执行，那就代表 root 用户执行 su ,所以就不用 root 的密码。为了避免，应该在 /etc/sudoers 文件中禁止 su 被 sudo 特权执行
+    - 禁止sudo su 在/etc/sudoers 里:   Lunatic ALL=(ALLALL) ALL,!/bin/su
 
