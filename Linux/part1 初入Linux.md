@@ -28,7 +28,18 @@
 
 
 
-##1.22 架构设计##
+##1.2.2 架构设计##
 
-<img src="images/1.2.2.png" >
+<img src="images/1.2.2.png" width="70%" height="70%" />
+
+##1.4.3 基础命令操作##
+
+<img src="images/1.4.3A.png"  width="70%" height="70%"/>
+<img src="images/1.4.3B.png"  width="70%" height="70%"/>
+<img src="images/1.4.3C.png"  width="70%" height="70%"/>
+<img src="images/1.4.3D.png"  width="70%" height="70%"/>
+<img src="images/1.4.3E.png"  width="70%" height="70%"/>
+<img src="images/1.4.3F.png"  width="70%" height="70%"/>
+<img src="images/1.4.3G.png"  width="70%" height="70%"/>
+<img src="images/1.4.3H.png"  width="70%" height="70%"/>
 
