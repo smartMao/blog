@@ -134,8 +134,30 @@
         
         
         
+##2.3.5 深入文件权限##
+
+>- linux 内的文件权限还不止 r w x 这三个，还包括  s 和 t，他们与系统账号 和 系统进程有关
+>- 文件权限 **s** : 这个标记可以出现在文件拥有者的 x 权限位上，也可以出现在所属组的权限 x 位上。前者称为 SUID 后者 SGID
+    - SUID : 指的是当一个文件的拥有者权限 : -rws rw- r 中的 x 位变成 s ，就表明任何执行这一个文件的普通用户，都会有这个文件拥有者的权限。
+    - 例如：su 命令，
+    <br/>
+    <img src="images/2.3.5.png" width="70%" height="70%" />
+    - su 命令(linux中所有东西都是文件夹) 的拥有者的权限是 r w s , su命令文件夹的拥有者是root ,  那么因为权限是 rws，su命令就设置了SUID ，普通用户在执行 su 命令时，就会拥有了 root 的权限了(如果文件拥有者是mao, 那么就会有 mao 的权限)，这个权限仅在执行 su 命令是有效，这也是su 命令能够切换用户的原理。
+    - **简略说SUID就是设置拥有创建文件的用户的身份的其他用户身份，意思是你和创建文件的所有者一样的身份权限**
+    - <a href="http://zhidao.baidu.com/link?url=FHB-XvoWgTD5D3JRXH16cDCsuZDo8sSo1bkLuna1zEDCY73VgpVhpTXAMhmpsMJHBWL4vE543QESDrb4ZLJmy_" >什么是SUID？</a>
+
+>- 文件权限 t 
+    - 这个权限是应用在文件限组中的 "其他人" 中：
+        - -rw- rw- r-T  设置了t （Sticky Bit）简称SBIT。
+        - 在 "其他人" 权限中有了T， 代表除了 文件拥有者 和 root 外其他人都不得删除此文件
+        - SBIT 典型应用在 tmp 目录，这个目录允许任何用户在内创建文件夹，设置了 SBIT 后，就只有自己和root能删除此文件夹
         
+>- 这类权限也可用数字法表示，就是将 原来的 3位数字 扩展成4位
+    - chmod 7777 ....
+
+
         
+
         
         
 
