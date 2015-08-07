@@ -84,7 +84,7 @@
     - 禁止sudo su 在/etc/sudoers 里:   Lunatic ALL=(ALLALL) ALL,!/bin/su
 
 
-##2.2.3 文件属性和权限#
+##2.3.2 文件属性和权限#
 
 >- linux 文件有三个固有属性：
     - 拥有者 (一般为创建这个文件的用户)
