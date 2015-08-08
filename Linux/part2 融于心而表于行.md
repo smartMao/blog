@@ -154,7 +154,49 @@
         
 >- 这类权限也可用数字法表示，就是将 原来的 3位数字 扩展成4位
     - chmod 7777 ....
+    
+    
+    
+##2.3.7 搜索文件#
 
+>- Linux有5个搜索文件的命令: whereis \ locate \ which \ type \ find
+    - **$ whereis ls**
+        - 搜索ls命令的文件所在位置，快速，是因为whereis 搜索不是在磁盘中漫无目的的查找，而是在数据库中(/var/lib/mlocate/)中查询, 这个数据库里包含了本地文件的所有信息，并且每天自动执行 updatedb 命令更新一次。但这样刚刚创建的文件就搜索不了，要更新的话就手动执行updatedb命令
+        <br/>
+    - **$ locate ls**
+        - 搜索数据库(/var/lib/mlocate/)中的路径出现过 ls的路径，类似于 通配符 \*ls\*  ，不管前面后面只要出现了ls 就会被匹配到
+        <br/>
+    - **$ which apache**
+        - which 搜索命令会在 $PATH 环境变量中指定的路径来搜索可执行文件的所在位置。一般用来确认系统中是否安装了某些软件。比如是否安装了apache
+        <br/>
+    - **$ type -p 文件名**
+        - $ type -p 文件名 等同于 $ which 文件名
+        <br/>
+    - **$ find**
+        - <a href="http://geekmao1997.blog.163.com/blog/static/2469330582015780534761/">find 命令详解</a>
+        
+        
+##2.3.8 压缩文件#
+
+>- 压缩类型：tar.gz  /  tar.bz2  /  tar.xz
+>- 压缩比例：gz  >  bz2  >  xz
+>- 压缩速度：xz  >  bz2  >  gz
+>- tar 命令详解：<a href="http://www.cnblogs.com/li-hao/archive/2011/10/03/2198480.html" target=_blank>tar 命令详解</a>
+
+>- 压缩：
+    - z 代表 gz , j 代表 bz2 ,  J 代表 xz
+    - FILES 代表要被压缩的文件、目录
+    - 例：**# tar -zcvf filename.tar.gz FILES**
+    - 例：**# tar -Jcvf filename.tar.xz FILES**
+    
+
+>- 解压：
+    - **$ tar -vx -f filename.tar**
+    - 或
+    - **$ tar -vxf filename.tar**
+    - 注意：选项 **f** 代表：使用档名，**f** 后不可再有其他除档名外的东西  
+  <br/>  
+>- 其他：比tar压缩更好的压缩：<a href="http://www.cnitblog.com/flutist1225/articles/18974.html"  target=_blank>cpio 命令详解</a>
 
         
 
