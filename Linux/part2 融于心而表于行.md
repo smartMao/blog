@@ -242,7 +242,109 @@
     - 平常的退出Linux，后台任务自然就跟着显示了，但可以用下面
     - **# nohup [命令及参数] &**
     
+##2.4.2 计划任务##
+
+>- 计划任务分为：**一次性**  和  **周期性**  两种
+    - **一次性**：
+        - 1. \# at s10:00 tomorrow
+        - 2.  at> /bin/echo "明天10点定时执行程序"
+        - **解读**：输入了**at**命令后，提示符会变为 **at>** ，让你输入要执行的程序段，如果用到了命令，例如：**echo** , 要写为 **/bin/echo "abc"** , 因为在计划性任务中$PATH环境变量会出问题，所以要把全路径加上。
+    - **周期性**：
+        - 周期性任务 cron
+            - **# crontab -e**  编辑当前用户的cron表
+            - **# crontab -l**  查看当前用户的cron表
+            - **# crontab -r**  删除当前用户的cron进程
+            - **# crontab -u 用户名**      以某用户身份来控制cron表        
+        - 添加周期性任务：(**# crontab -e**)
+            - 格式: **分钟 小时 日 月 周  [用户名]  命令**
+        <img src="images/2.4.2.png" width="80%" height="80%"/>
+        <img src="images/2.4.2A.png" width="80%" height="80%"/>
+        - 周期性任务的时间符号
+            <table style="text-align:center;">
+                <tr>
+                    <th>符号</th>
+                    <th>含义</th>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>代表任意时间</td>
+                </tr>
+                <tr>
+                    <td>,</td>
+                    <td>
+                    代表分割出不连续的时间,比如 2,3 表示2和3都行 
+                    </td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>代表连续的时间段,比如2-4 表示2、3、4</td>
+                </tr>
+                <tr>
+                    <td>\*/n</td>
+                    <td>代表每隔单位时间</td>
+                </tr>   
+            </table>
     
+##2.4.3 守护进程及其作用##
+>- 了解到用户请求系统服务之后，系统的进程工作流程
+
+
+
+##2.4.4 全面了解程序信息##
+>- 使用 **ps \ top \ pstree** 三个命令了解当前系统中运行着哪些程序、都使用了哪些资源以及程序之间的关系是什么。
+	- **# ps aux** 查看系统中所有程序数据
+	- **# ps ux** 查看当前用户的所有程序数据
+	- **# ps -l** 查看与当前终端关联的程序数据
+ 
+>- 执行 **# ps -l** 命令
+    <br />
+	<img src="images/2.4.4A.png" width="70%" height="70%" />
+	<img src="images/2.4.4B.png" width="70%" height="70%" />
+	<br />
+>- 执行 **# ps aux**  命令
+	- 如果其中 COMMAND显示命令栏太长， 使用 **# ps aux | more**
+	<br />
+	<img src="images/2.4.4C.png" width="70%" height="70%" />
+	<img src="images/2.4.4D.png" width="70%" height="70%" />
+	<br />
+>- 执行 **# top** 命令
+    <br />
+	<img src="images/2.4.4E.png" width="70%" height="70%" />
+	
+>- CPU占比 、 平均工作负载
+    <br />
+    <img src="images/2.4.4G.png" width="70%" height="70%" />
+>- 执行 **# pstree** 命令
+    <br />
+	<img src="images/2.4.4H.png" width="70%" height="70%" />
+
+
+##2.5.2 利用软件管理工具 rpm和dpkg##
+>- Linux上最通用的两个软件管理工具
+<br />
+<img src="images/2.5.2.png" width="70%" height="70%" />
+<img src="images/2.5.2A.png" width="70%" height="70%" />
+
+
+##2.5.3 线上升级##
+>- Linux上最流行的两个线上升级工具
+<img src="images/2.5.3.png" width="70%" height="70%" />
+<img src="images/2.5.3A.png" width="70%" height="70%" />
+
+##2.6.1 Linux的文件系统##
+
+>- **FAT32**
+	- 是Windows95时代的文件系统，我的u盘也还是FAT32的。
+	- FAT32 (File Allocation Table) 类似于表格一样的文件系统，由于其描述文件大小的属性是一个32位的值，导致FAT32能支持的单个文件最大不能超过4G。
+>- **NTFS**
+	- 是微软为了 NT系统而设计的，单个文件最大可以到2T, XP \  Win7 都是NTFS，
+>- **ExtN (N=2,3,4)**
+	- ExtN是linux的文件系统，此文件系统被称为“索引式文件系统”
+>- FAT32 与 ExtN 文件系统相比较：
+	- **ExtN** 通过inode能够一次性获得文件数据所存放的位置，可以来安排磁盘的阅读顺序，尽量保证在磁盘只转一圈的情况下将所有内容读出来。
+	- **FAT32** 只有将对应的date block读入之后才知道下一个data block的位置，如果一个文件的data block位置比较分散的话，有时候要转很多圈才能读完数据。这就是windows用长时间对文件进行创建、删除、读写就很难保证同一个文件的data block的位置是相邻的，而由于FAT32的特性，在data block位置不相邻的情况下，读写性能会急剧下降，所以，为了提交FAT32的性能，经常做“磁盘碎片管理” 是很有必要的。
+<img src="images/2.6.1.png" width="70%" height="70%" />
+<img src="images/2.6.1A.png" width="70%" height="70%" />    
     
     
             
