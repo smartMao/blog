@@ -365,7 +365,7 @@
 	- **# du**
 		- df命令是读取super block 效率很高，但du命令是读取所有的inode来计算局部数据, 效率比较低
 	- **# dd**
-		- 格式: **\# dd  if=input_file  of=out_file**
+		- 格式: **# dd  if=input_file  of=out_file**
 		- 其实，**"if"**  **"of"** 这个两个参数不用给定，会有默认值，**"if"** 的默认值是标准输入， **"of"** 的默认值是标准输出
 		- **dd** 命令去模拟 **cat** 命令
 		    - **# dd if=1.txt**
@@ -386,11 +386,54 @@
         - **# fsck -f -t Ext3 /dev/sda1**
     - **# mount**
         - 格式: **# mount [-t 文件系统] 设备名称 挂接点**
-        - [linux mount 命令详解][1]
+        - <a href="http://geekmao1997.blog.163.com/blog/static/24693305820157910238576/" target=__blank>mount 命令详解</a>
         <br />
 <img src="images/2.6.2C.jpg" width="80%" height="80%" />
 <img src="images/2.6.2D.png" width="80%" height="80%" />
 <img src="images/2.6.2E.png" width="80%" height="80%" />
+
+##2.6.3 /etc/fstab —— 决定分区的连接##
+>- **# fdisk**  —— 创建交换分区
+>- **# mkswap** —— 格式化交换分区
+>- **# swapon** —— 挂接交换分区
+>- **# swapoff** —— 关闭交换分区
+>- [linux中的SWAP分区概述][1]
+  [1]: http://www.linuxidc.com/Linux/2014-05/102272.htm
+  
+  
+###2.6.4 弹性调整容量 —— 逻辑卷#
+
+####1. 什么是逻辑卷####
+>- 逻辑卷用来弹性的调整文件系统的容量，当文件系统容量不够用时，可向逻辑卷中增加新的分区来扩大容量，容量太大则反之。
+>- Linux系统实现逻辑卷功能是 **LVM** (Logical Volume Manager) 逻辑卷管理器
+
+####2. 逻辑卷的基本术语与原理####
+>- **PV** (Physical Volume) 物理卷
+    - 物理卷就是具体的磁盘分区
+>- **VG** (Volume Group) 卷组
+    - 卷组由多个物理卷组成，可以在卷组上创建一个或多个LVM分区
+>- **PE** (Physical Extend) 物理扩展区
+    - 每个物理卷被进一步划分成被称为物理扩展区的基本单元，换句话说PE是**LVM**使用的最小存储区，LVM默认的PE大小是4M，每个卷组最多只能含有 65534 个PE，所以一个卷组的最大容量是 4M * 65534 = 256G , 但每个PE的大小是可以改变的，那也就能改变卷组的最大容量
+>- **LV** (Logical Volume) 逻辑卷
+    - 逻辑卷就是在卷组之上再进行切分，与物理磁盘上继续划分分区是一样的道理，但是逻辑卷的大小必须是PE的整数倍。这就是LVM能弹性调整逻辑卷容量的秘密所在，需要增加容量，就增加PE，需要减少容量，就减少PE。
+>- **LVM 的构成原理图**
+<br />
+<img src="images/2.6.4.png" width="70%" height="70%" />
+<img src="images/2.6.4A.png" width="70%" height="70%" />
+<img src="images/2.6.4B.png" width="70%" height="70%" />
+<br />
+>- **RAID**
+    - RAID称为磁盘阵列，RAID是一种把多块独立的硬盘（物理硬盘）按不同的方式组合起来形成一个硬盘组（逻辑硬盘），从而提供比单个硬盘更高的存储性能和提供数据备份技术。
+    
+    
+###3. 逻辑卷基本操作###
+>- 把一个物理磁盘划分为逻辑卷的过程
+
+<img src="images/2.6.4C.jpg" width="70%" height="70%" />
+<img src="images/2.6.4D.png" width="70%" height="70%" />
+<img src="images/2.6.4E.png" width="70%" height="70%" />
+<img src="images/2.6.4F.png" width="70%" height="70%" />
+
 
 
 
