@@ -46,8 +46,8 @@
         
         
 ####4. login shell 和 non login shell 整个配置文件处理流程图：####
-<img src="images/2.8.2A.png" width="70%" height="70%" />
-<img src="images/2.8.2B.png" width="70%" height="70%" />
+<img src="images/2.8.3A.png" width="70%" height="70%" />
+<img src="images/2.8.3B.png" width="70%" height="70%" />
 
 
 
