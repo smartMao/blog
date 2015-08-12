@@ -23,4 +23,21 @@
 <br />
 <img src="images/3.4.1C.png" width="70%" height="70%" />    
 
+##3.5.4 /usr/local目录##
 
+>- /usr/local/ 目录整个文件系统的第三个主要区段，是供系统管理员安装局域性软件使用的。它保证在了当系统更新时不会把他们覆盖掉，所以一般是挂接到一个独立的磁盘分区上的。
+<br />
+<img src="images/3.5.4.png" width="70%" height="70%" />
+
+ ##3.6 /var 目录组织结构##
+ 
+ >- /var 目录包含着系统中绝大多数的随时变化着的数据，比如系统日志。
+ <br />
+ <img src="images/3.6A.png" width="70%" height="70%" />
+ <img src="images/3.6B.png" width="70%" height="70%" />
+ <img src="images/3.6C.png" width="70%" height="70%" />
+ 
+ ##3.7 结束语##
+ <br />
+ <img src="images/3.7.png" width="70%" height="70%" />
+ 
