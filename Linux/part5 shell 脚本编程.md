@@ -39,3 +39,13 @@
 ####5. 循环语句####
 <img src="images/5.2.3E.png" width="40%" height="40%"/>
 <img src="images/5.2.3F.png" width="40%" height="40%"/>
+
+##5.2.4 自定义函数##
+>- Shell 函数：<a href="http://blog.csdn.net/ljianhui/article/details/9333443">Shell 自定义函数 </a>
+<img src="images/5.2.4" width="70%" height="70%" />
+>- 传入文件名进函数，删除该文件
+<img src="images/5.2.4A" width="70%" height="70%" />
+
+
+##5.3 输入和输出##
+>- 本节将介绍标准输入、标准输出、文件描述符、重定向以及格式化输出
