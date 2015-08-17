@@ -42,9 +42,9 @@
 
 ##5.2.4 自定义函数##
 >- Shell 函数：<a href="http://blog.csdn.net/ljianhui/article/details/9333443">Shell 自定义函数 </a>
-<img src="images/5.2.4" width="70%" height="70%" />
+<img src="images/5.2.4.png" width="50%" height="50%" />
 >- 传入文件名进函数，删除该文件
-<img src="images/5.2.4A" width="70%" height="70%" />
+<img src="images/5.2.4A.png" width="50%" height="50%" />
 
 
 ##5.3 输入和输出##
