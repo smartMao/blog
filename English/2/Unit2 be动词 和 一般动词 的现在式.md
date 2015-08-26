@@ -154,4 +154,14 @@
     - <br/>
     - 一般动词 的否定句：
         - Xuzhiqiao likes dogs.
-        - Xuzhiqiao doesn't like dogs. 
+        - Xuzhiqiao doesn't like dogs.
+        
+<br/>
+>- be动词 和 一般动词 的疑问句 比较：
+    - be动词 的疑问句：
+        - 肯定句：She is beautiful.
+        - 疑问句：Is she beautiful ?
+    - <br/>
+    - 一般动词 的疑问句：
+        - 肯定句：She loves tennis.
+        - 疑问句：Does she love tennis ?
