@@ -154,4 +154,4 @@
     - <br/>
     - 一般动词 的否定句：
         - Xuzhiqiao likes dogs.
-        - Xuzhiqiao doesn't like dogs.
+        - Xuzhiqiao doesn't like dogs. 
