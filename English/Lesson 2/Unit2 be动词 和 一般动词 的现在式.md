@@ -96,7 +96,7 @@
         - 例：works [ wə:ks ]  /  plays [ pleɪz ]
     - <br/>
     - **一般动词字尾为 o , s , sh , ch 时, 加 es** 
-        - 例：goes [ z ]  / finishes [ ɪz ]   ( 音标标注es的发音 )
+        - 例：goes [ z ]  / finishes [ ɪz ]   
     - <br/>
     - **一般动词字尾为子音 + y 时，需去掉 y 改为 i** 
         - cry => cries  / study => studies
