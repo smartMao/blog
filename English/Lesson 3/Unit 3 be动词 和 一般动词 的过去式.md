@@ -64,3 +64,43 @@
             - 看到没有，原来第二人称的 you ，后面也是接 are 的，所以疑问句 Were 后面有单数名词you 就不奇怪了
         - **过去式答句：Yes, I was.**
     
+###三. 一般动词的过去式###
+
+>- 一般动词**现在式** 转换为 一般动词**过去式** 的 **规则变化** 和 **不规则变化**
+    - **规则变化**：
+        - 格式：原型动词 + ed 。
+        - 格式：原型动词字尾有e + d
+            - 例：loved , danced ( 但不是所有字尾为 e 的都会加 d ) 
+            如：write => wrote
+        - <br/ >
+        - 原型动词 加的 ed 发音为 [ t ] [ d ] [ ɪd ] 。
+            - 当一般动词尾音为无声子音时发 [ t ].  如：helped [ həlpt ]
+            - 当一般动词尾音为有声子音时发 [ d ]. 如：spelled [ spɛld ]
+            - 当一般动词尾音为 [ t ] 或 [ d ]时 发 [ ɪd ]. 如：wanted [ wantɪd ]
+            - 当一般动词字尾为 y ，则去 y 加 ied。如：studied
+        - <br/>
+        - 一般动词规则变化小结：
+            - 当一般动词加ed后，原型动词的尾音无声发同样无声的 [ t ]
+            - 当一般动词加ed后，原型动词的尾音有声发同样有声的 [ d ]
+            - 当一般动词加ed后，原型动词的尾音是 [ t ] [ d ] 时，ed 则发 [ ɪd ]
+        - 例：
+            - （现在式）：I **learn** linux **every weekend**
+            - （过去式）：I **learned** linux **yesterday**
+            - 动词会随着时间副词的改变而跟着改变 
+    - <br/>
+    - **不规则变化**  
+        - 一般动词**现在式** 转换为 一般动词**过去式** 中的不规则变化
+            - ride => rode
+            - swim => swam
+            - eat => ate
+            - read [ rid ] => read [ rɛd ]
+            - go => went 
+            - have => has 
+            - 不像规则变化那样字尾有ed,
+            不规则变化真的是一点变化规则都没有的！！！
+        - 例：
+            - （现在式）：**Xuzhiqiao goes supermarket every morning**
+                - 此句的时间副词是 every morning , 代表每天早上，是一个习惯性的动作，用现在式表现
+            - （过去式）：**Xuzhiqiao went supermarket yesterday morning**
+            - 上面现在式句子中，因为主词是第三人称单数，所以 go 加了 es ，但是在过去式句子中，went 是由 go 不规则变化而来的，那 went 需要加 es 吗？ 答案是不需要的。
+                - 原因：**主词为第三人称单数时，过去式的动词不需要加 s 或 es**
