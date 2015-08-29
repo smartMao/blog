@@ -104,3 +104,48 @@
             - （过去式）：**Xuzhiqiao went supermarket yesterday morning**
             - 上面现在式句子中，因为主词是第三人称单数，所以 go 加了 es ，但是在过去式句子中，went 是由 go 不规则变化而来的，那 went 需要加 es 吗？ 答案是不需要的。
                 - 原因：**主词为第三人称单数时，过去式的动词不需要加 s 或 es**
+    ###一般动词过去式的否定句###
+
+>- 一般动词过去式的否定句，须用助动词 did （不能直接加not，因为是一般动词而不是be动词）
+>- 格式：
+    - 肯定句：主词 + 一般动词（过去式） .....
+    - **否定句**：主词 + did not + 原型动词 ..... 
+<br/>
+>- 例：
+    - 过去式肯定句例：He called you last night
+    - 过去式**否定句**例：He did not call you last night
+    - <br/>
+    - 过去式肯定句例2：My sister and I watched TV all day yesterday
+    - 过去式否定句例2：My sister and I did not watch TV all day yesterday
+        -  翻译为：我的姐姐和我并非昨天整天都在看电视 ( 其中的并非，是由句子中的 not 和 all 组成的 )
+        
+<br/>
+###一般动词的疑问句###
+
+>- 格式：
+    - 过去式肯定句：主词 + 一般动词（过去式） ....
+    - 过去式疑问句：Did + 主词 + 原型动词 ....
+<br/>   
+>- 例：
+    - 过去式肯定句例：His friends went to movie last week.
+    - 过去式疑问句例：Did his friends go to movie last week?
+<br/>
+>- 例2：
+    - 肯定句：Grace wrote a letter to David
+    - 疑问句：Did Grace write a letter to David
+    - 答句 ： Yes , she did . / No , she didn't
+    
+<br/>
+###did / do / does 的两种意思###
+
+>- did / do / does 
+    - 第一种意思：代表一般动词，意思是“做”
+    - 第二种意思：助动词 （没有对应翻译）
+
+>- 那么怎么分辨 did / do / does 在句子中是哪种意思呢
+    - 当 did / do / does 后面没有跟着原型动词，说明它是代表一般动词
+    - 当 did / do / does 后面有原型动词，如：Does she love tennis ?
+    
+>- 例：
+    - He did his homework. （句子当中的did代表一般动词，因为后面没原型动词）
+    - Did he do his homework? （句子开头的Did是助动词，因为后面有 do 这个一般动词）
