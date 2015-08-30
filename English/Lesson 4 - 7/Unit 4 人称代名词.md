@@ -146,3 +146,21 @@
         - 这里再说回 that ，that 在这个句子中做连接词，连接 两个主词、两个动词。这个句子可以分为两段，由 that 做连接。
             - 第一段： It （主词） 、 is ( be动词 )
             - 第二段： you （主词）、tell （一般动词）
+            
+ 
+<br/>
+>- 例3：
+    - **It's no use telling him about it.**
+        - " It's no use " 翻译为：这件事情是没有用的。
+        - " telling him about it " 翻译为：告诉他这件事情 
+        - 此句子里既没有 to 也没有 that 。所以要找 动词+ing的 部分，也就是 telling 往后。
+        - 所以，这里的 It 代表了 “ telling him about it ” 
+        
+        
+<br/>
+>- **句子开头有 It  所代表的意思是 总结：** 
+    - 当 It 放在句首要去代替一件事情时：
+        - It 所要代替的意思可去找后面的（不定词）：to + 原型动词 ... 
+        - It 所要代替的意思可去找后面的：that + 主词 + 动词 ....
+        - It 所要代替的意思可去找后面的：V. + ing ...
+            - 这里的 V. 代表动词缩写。ing 表示跟在后面的 。如：telling
