@@ -113,3 +113,36 @@
     - <br/>
     - It is five kilometers from here to the artport. ( 从这里到机场有5公里远 )
     
+
+<br/>
+>- 例1：
+    - 问句：Who kncked at the door ? （谁在敲门）
+    - 答句：I thought it was Jack. （我认为 敲门的人是Jack）
+        - 在答句的 it 就代表着敲门的人
+    - <br/>
+    - 肯定句: It's all up to you. ( 一切由你决定 )
+        - 当大家在讨论一件事情时，后面说一句 It's all up to you. , 当中的 it 代表的就是前面讨论的事情
+    - <br/>
+    - 肯定句：I like it here ( 我喜欢这里 )
+        - 说成 I like here 的话是错误的，因为一个句子里应当要有 主词 + 动词 + 受词。说成 I like here 的话 就缺少了受词，而且这个受词要具有名词的身份，因为 here 是一个地点副词，不能当受词。但是 it 可以当受词，同时 it 也是名词。
+    - <br/>
+    - 肯定句：I don't feel like it. ( 我不想 )
+        - 如果说 “你想要跟我出去吗？” ， 之后接 I don't feel like it .  那么其中 it 代表就是 前面说的这件事情
+
+<br/>
+###it 可当假主词###
+>- it 可以代替一件事。
+
+<br/>
+>- 例：
+    - **It is difficult to learn Spanish** ( 学习西班牙文是困难的 )
+        - 按顺序翻译时，开头的 It 要去找可代替的事情，It  就要找句中 to + 原型动词 的部分。例如：此句子的 It 要找 to learn spanish 来给 It 代替 （顺便说一句: to + 原型动词 叫做不定词）， It 代替要找不定词所引导的部分
+    
+<br/>    
+>- 例2：
+    - **It's important that you should tell the truth.**
+        - 翻译：你应该要说真话很重要
+        - It 又是当假主词。之前 It 是找不定词 to 后面的，但现在句子里并没有 不定词 to ，但是 有一个 that ，那么 It 指的就是 that 所引导的部分。
+        - 这里再说回 that ，that 在这个句子中做连接词，连接 两个主词、两个动词。这个句子可以分为两段，由 that 做连接。
+            - 第一段： It （主词） 、 is ( be动词 )
+            - 第二段： you （主词）、tell （一般动词）
