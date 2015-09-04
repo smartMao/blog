@@ -159,6 +159,7 @@
         - netiher 两者都不 ...
         - all 全部的    
         - not all 不是全部 / 并非所有
+        
 <br/>        
 ###either / neither 副词用法###
 
@@ -225,6 +226,7 @@
 >- 例4：**Do you have any magazines to read ?**
     - 翻译：你有任何杂志可以读吗？
     - 疑问句用 any 
+<<<<<<< HEAD
     
 <br/>
 ###some 可用于表示 “请求 ，邀请” 的疑问句###
