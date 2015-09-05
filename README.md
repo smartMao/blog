@@ -39,16 +39,16 @@
     <td>学习英语，为学习YII框架，看技术书，看Google</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2015-09-05</td>
+    <td>英语</td>
+    <td>交替</td>
+    <td>由于开学，学习英语 与 Linux 交替学习，星期一 至四学习 Linux , 星期五、六、日学习英语</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2015-09-05</td>
+    <td>Linux</td>
+    <td>交替</td>
+    <td>同上</td>
   </tr>
   
 </table>
