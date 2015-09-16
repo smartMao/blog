@@ -7,6 +7,7 @@
     - always 总是
     - at the time  一直这样
     - again and again 一而再再而三
+>- 单词后面有加 ing , 不止是表示此时此刻这个动作正在进行，**还表示重复动作的意思**
 
 
 <br/>
