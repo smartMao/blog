@@ -128,9 +128,9 @@
 >- be going to + V  ( 强调计划好的 ) 
     - We are going to leave school soon
     
-<br/>
+<br/><a href="#Will you" id="Will you"></a>
 ###will you###
-<a href="#Will you" id="Will you"></a>
+
 >- will you  表 请求 或 邀约
 >- 表 请求：Will you ....... ? 
     - 肯定回答：Sure . / OK / All right 
