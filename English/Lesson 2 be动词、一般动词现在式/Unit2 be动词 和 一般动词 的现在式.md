@@ -1,10 +1,27 @@
 ##Unit2 be动词 和 一般动词 的现在式##
 
+>- 目录
+    - <a href="#A1">be动词的现在式 am / are / is</a>
+        - <a href="#A2">主词 + be动词</a>
+            - 第一人称（I） + am 
+            - 第二人称( you ) / 复数名词 + are
+            - 第三人称(he,she,it) / 单数名词 + is
+        - <a href="#A3">be动词的否定 => am / are / is + not</a>
+        - <a href="#A4">be动词的疑问句</a>
+        - <a href="#A5">be动词疑问句的回答</a>
+    - <a href="#B1">一般动词的现在式</a>
+        - <a href="#B2" >一般动词加 s 或 es</a>
+        - <a href="#B3" >一般动词的否定句</a>
+        - <a href="#B4" >一般动词的疑问句</a>
+
+
+
 >- **be动词**代表的是**状态**或**存在**。
     - 例：了解、知道、爱 .. 等 (虽然看不见，但也是动词)
 >- **一般动词**代表的是**动作**
     - 例：唱、走、吃 .. 等
 
+<a id="A1"></a>
 ###一. **be动词**的现在式 **am / are / is** ###
 >- 英语句子的基本结构： 要有主词( S. ) 和 动词 ( V. ) 
 <br/>
@@ -19,6 +36,7 @@
     - 第一人称 （我）
     - 第二人称 （你）
     - 第三人称 （他）
+<a id="A2"></a>
 <br/>
 >- 主词 + be动词 （be动词是根据主词来决定用哪个）
     - **第一人称（I） + am**   ( I 后面固定跟 am )
@@ -36,6 +54,7 @@
         - 当前面是 I ， 后面固定跟 am.
         - 当前面名词是复数时，后面跟 are，所以are 也称为复数 be动词
         - 当前面名词是单数时，后面跟 is ， 所以is 也称为复数 be动词
+<a id="A3"></a>
 <br/>
 >- **be动词的否定 => am / are / is  + not**
     - 肯定句： **主词 + am / are / is ...**
@@ -45,6 +64,7 @@
         - He is not a good programmer. (他不是一个好的程序员)
         - He 可以和 is 缩写为 ：He's
         - is 可以和 not 缩写为：isn't
+<a id="A4"></a>
 <br/>
 >- be动词的疑问句
     - 将 be动词放主词前面，然后句尾加问号。
@@ -52,6 +72,8 @@
     - 疑问句：Am / Are / Is + 主词 ....  ?
     - <br/> 
     - 例： This is my computer => 转为疑问句 Is this my computer?
+
+<a id="A5"></a>
 <br/>
 >- be动词疑问句的回答
     - **be动词开头的疑问句，可用Yes 或 No 回答**
@@ -71,6 +93,7 @@
         - I am a boy  => 疑问句 ： Are you a boy ?
             - 看见I am 要变为 Are you 
     
+<a id="B1"></a>
 <br/>
 ###二. **一般动词**的现在式###
 >- 日常生活中的具体动作（eat吃，run跑，walk走等）以及某些抽象的动作（like喜欢，feel感觉，think想等）都可以称之为一般动词。
@@ -84,6 +107,7 @@
     - 第二人称：You like code / You like code 
     - 第三人称：He likes code / They like code 
         - 这里的 like 加了 s ，前面提到过 “在现在式中，如果主词是第三人称单数，一般动词就要加s或es” , 而这里的 He 就是第三人称单数。
+<a id="B2"></a>
 <br/>
 >- 一般动词加 s 或 es 的方法 
     - **动词** 与 **名词** 加 s 或 es 的区别：
@@ -107,6 +131,7 @@
     - 例 : They **have** many money ( 他们有许多钱 )
     - 例 : He **has** many money ( 他有许多钱 )
     
+<a id="B3"></a>    
 <br/>
 >- 一般动词的否定句
     - **be动词** 与 **一般动词** 在否定句上的区别  
@@ -134,7 +159,8 @@
         - 肯定句 转 否定句：
             - 肯定句：**Sam has dinner at the restaurant**
             - 否定句：**Sam does not have dinner at the restaurant**
-    
+
+<a id="B4"></a>    
 <br/>
 >- 一般动词的疑问句
     - 格式：Do / Does + 主词 + 原型名词 + ....   ?
