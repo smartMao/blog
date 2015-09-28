@@ -1,10 +1,28 @@
 ##Unit7 不定代名词(2)；时态##
 
+>- 目录
+    - 不定代名词
+        - <a href="#A1" one / ones</a>
+        - <a href="#A2" one 与 it 的用法及区</a>
+        - <a href="#A3" both / all</a>
+        - <a href="#A4" both / all 出现在否定句时</a>
+        - <a href="#A5" either / neither</a>
+        - <a href="#A6" either / neither 副词用法</a>
+        - <a href="#A7" some / any</a>
+        - <a href="#A8" some 可用于表示 “请求 ，邀请” 的疑问句</a>
+        - <a href="#A9" other / another</a>
+        - <a href="#A10" none （无）、 several (数个)、 most （大部分）</a>
+        - <a href="#A11" most 可当形容词</a>
+
+
+
+
 ###不定代名词(2)###
 
 >- 不特定的人或物
 >- 非一定数量的代名词 ( 如：many )
 
+<a id="A1"></a>
 <br/>
 ###one / ones###
 
@@ -24,7 +42,8 @@
     - 翻译：我喜欢小车子胜过大的车子
     - better than 译为： 胜过 / 比 ... 更好
     - 结尾的 ones == cars   , 名词是复数，one 也得加 s
-    
+
+<a id="A2"></a>    
 <br/>
 ###one 与 it 的用法及区别###
 
@@ -58,7 +77,8 @@
 >- 总结：
     - one 可以从一堆苹果里挑一个
     - it 没得挑，有限定
-    
+
+<a id="A3"></a>    
 <br/>
 ###both / all###
 
@@ -101,7 +121,8 @@
         - 句子结构：主词（You） + 动词(may take) +  受词（them all）   
             - 受词里面又要分：人称代名词（them） + 不定代名词 (all)
         - 注意：动词后面要紧跟着人称代名词（them）, 然后才是不定代名词 ( all )
-        
+
+<a id="A4"></a>        
 <br/>
 ###both / all 出现在否定句时###
 
@@ -122,7 +143,8 @@
     - 因为 Not all 翻译成：不是全部 / 并非所有
     - 所以正确的翻译是：并非所有的人都来自英国
     - 同义句子： Just some of them come from English
-    
+
+<a id="A5"></a>    
 <br/>
 ###either / neither###
 
@@ -159,7 +181,8 @@
         - netiher 两者都不 ...
         - all 全部的    
         - not all 不是全部 / 并非所有
-        
+
+<a id="A6"></a>        
 <br/>        
 ###either / neither 副词用法###
 
@@ -194,6 +217,7 @@
         - neither + 助动词 + 主词
         - neither + be动词 + 主词
 
+<a id="A7"></a>
 <br/>
 ###some / any###
 
@@ -227,7 +251,8 @@
     - 翻译：你有任何杂志可以读吗？
     - 疑问句用 any 
 <<<<<<< HEAD
-    
+
+<a id="A8"></a>    
 <br/>
 ###some 可用于表示 “请求 ，邀请” 的疑问句###
 
@@ -243,6 +268,8 @@
 >- 例：How about some tea?
     - 翻译：喝些茶如何呢？
 
+
+<a id="A9"></a>
 <br/>
 ###other / another###
 
@@ -297,6 +324,8 @@
     - 如不懂：请看 Unit7 ： 71 分钟处 有图解
     
     
+
+<a id="A10"></a>
 <br/>
 ###none （无）、 several (数个)、 most （大部分）
 
@@ -330,6 +359,7 @@
     - 翻译：大部分的人都知道它。
     
 
+<a id="A11"></a>
 <br/>
 ###most 可当形容词###
 

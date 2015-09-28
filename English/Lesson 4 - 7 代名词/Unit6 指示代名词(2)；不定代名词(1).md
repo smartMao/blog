@@ -1,7 +1,17 @@
 ##Unit6 指示代名词(2)；不定代名词(1)###
 
+>- 目录
+    - 指示代名词(2)
+        - <a href="#A1" >that those 的代替用法</a>
+        - <a href="#A2" >so 作为动词的受词或补语</a>
+        - <a href="#A3" >such 译为 “ 那样的事物 / 人 ” 之意</a>
+        - <a href="#A4" >same</a>
+    - <a href="#B1" >不定代名词</a>
+
+
+<div id="A1"></a>
 <br/>
-### that those 的代替用法###
+### that those 的代替用法###W
 
 >- 当句子中有名词重复时，可以用 “代替用法”。但是要用 “代替用法” 还有一个限制，那就是 重复的名词 后面要用**修饰语** 才能使用 “ 代替用法”
     - 修饰语：指的是对名词的补充说明。
@@ -40,7 +50,7 @@
             - 但这里的 interests （复数） 前面名词重复了，并且重复的名词后面也有修饰词，所以用 those 来代替
         - 优化 **Her interests are different from those of her childhood.**
         
-        
+ <div id="A2"></a>       
 <br/> 
 ###so 作为 动词的 受词 或 补语，可以指代前面出现过的词或句子###
 
@@ -89,7 +99,8 @@
     - **She is smart. So is he.** ( 她很聪明，他也是 )
         - **so + be动词 + 主词** （因为开头是be动词，所以这里也要用be动词）
             - so 指代前面句子的意思
-    
+            
+<div id="A3"></a>    
 <br/>
 ###such 译为 “ 那样的事物 / 人 ” 之意###
 
@@ -112,6 +123,7 @@
         - a beautiful girl . 这个就是格式：( a / an ) （形容词） + 名词  
         - 前面加上 such ， " such a beautiful girl " 如此美丽的女孩
         
+<div id="A4"></a>       
 <br/>
 ###same###
 >- same 一般都加 the，表示“相同的事 / 物” 之意。
@@ -126,7 +138,7 @@
         - the same ... as （ 与 ...同样的）
         
 
-<br/>
+<div id="B1"></a><br/>
 ###三. 不定代名词###
 
 >- 不特定的人或物
