@@ -48,6 +48,7 @@
 <br/>
 ####动名词当受词####
 >- 动名词当受词时会放到 **一般动词** 或 **介系词** 后面
+>- 参考：<a href="https://github.com/smartMao/blog/blob/master/English/Lesson%2014%20-%2016%20%E4%B8%8D%E5%AE%9A%E8%AF%8D(to%20V)/Unit%2015%EF%BC%9A%E4%B8%8D%E5%AE%9A%E8%AF%8D(2).md#A2">不定词当受词</a> 是一样的，在普通情况下他们还可以相互装换，但有些特殊下是不可以的，因为意思会变
 
 <a id="B2"></a>
 <br/>
