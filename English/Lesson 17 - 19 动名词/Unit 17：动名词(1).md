@@ -7,6 +7,7 @@
         - <a href="#B2">动名词当一般动词的受词</a>
             - <a href="#B21">某些动词后接 动名词[Ving] 或 不定词[to V] 当受词时，**意思不变**</a>
             - <a href="#B22">某些动词后接 动名词[Ving] 或 不定词[to V] 当受词时，**意思改变**</a>
+            - <a href="#B23">某些动词后只能接 Ving 来当受词</a>
 
 <a id="A1"></a>
 <br/>
@@ -102,6 +103,25 @@
         - 至于这个 [ 停止 ] 是停止什么？看上下文吧，停止工作 、 停止跑步 都可以
         
 
+<br/>   
+#####某些动词后只能接 Ving 来当受词#####
+>- 例如：在 " give up " 这个动词后面只能接 Ving。
+>- **下列动词：mind , enjoy , finish , practice , miss , quit , understand , It's no use , good , can't help , stand , avoid , give up 等**
+
 <br/>
-#####某些动词后只能接 Ving#####
+>- 例1：mind 既有名词的意思，又有动词的意思。
+    - 动词时：介意。当 mind 在句子中的是动词的时候，他后面就要接 Ving
+    - 名词时：心智， 当 mind 在句子中是名词，他后面就接 to V 
+>- 那我怎么分辨 mind 在句子中是 动词 还是 名词？答案是看前面的单词
+>- A : Would you mind waiting for me ?
+    - 解析：句首的 Would 是助动词，因为助动词句型是 ：助动词 + 主词 + 原型动词，所以就得出 mind 在句子中是动词
+>- B : I made up my mind to wait for her.
+    - 解析：在 mind 前面的 my ，是代名词的所有格 表 “ 我的 ” 的意思，代名词的所有格后面一定要跟 名词 。<a href="https://github.com/smartMao/blog/blob/master/English/Lesson%204%20-%207%20%E4%BB%A3%E5%90%8D%E8%AF%8D/Unit%205%20%E4%BA%BA%E7%A7%B0%E4%BB%A3%E5%90%8D%E8%AF%8D(2)%EF%BC%9B%E6%89%80%E6%9C%89%E4%BB%A3%E5%90%8D%E8%AF%8D%EF%BC%9B%E5%8F%8D%E8%BA%AB%E4%BB%A3%E5%90%8D%E8%AF%8D%EF%BC%9B%E6%8C%87%E7%A4%BA%E4%BB%A3%E5%90%8D%E8%AF%8D(1).md#A2">代名词的所有格</a> 
+
+<br/>
+>- 例2：这些学生每天练习说英语
+    - These students practice speaking English every day.
+>- 例3：我忍不住嘲笑他。
+    - I can't help laughing at him
+    
         
