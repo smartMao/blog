@@ -63,12 +63,42 @@
     <td>开启 《鸟哥Linux私房菜 服务器篇》 </td>
   </tr>
    <tr>
+    <td>2015-11-06</td>
+    <td>Linux</td>
+    <td>完成</td>
+    <td>完成 《鸟哥Linux私房菜 服务器篇》</td>
+  </tr>
+   <tr>
+    <td>2015-11-06</td>
+    <td>Linux</td>
+    <td>开始</td>
+    <td>开始运用所学到的知识，在家里多年不用的台式机上，搭建一个LAMP架构，把我的班级网站从阿里云的虚拟主机上移动到自己搭建的服务器</td>
+  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-   <tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
