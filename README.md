@@ -75,16 +75,16 @@
     <td>开始运用所学到的知识，在家里多年不用的台式机上，搭建一个LAMP架构，把我的班级网站从阿里云的虚拟主机上移动到自己搭建的服务器</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2015-11-10</td>
+    <td>Linux</td>
+    <td>完成</td>
+    <td>LAMP 基本搭建完成</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2015-11-10</td>
+    <td>Linux</td>
+    <td>开始</td>
+    <td>网站架构中增加缓存层</td>
   </tr>
   <tr>
     <td></td>
