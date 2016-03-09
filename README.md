@@ -111,16 +111,16 @@
     <td>学习 英语语法 ，为了更好的阅读英文文档，查技术文档</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2016-03-09</td>
+    <td>英语</td>
+    <td>完成</td>
+    <td>完成 《赖氏经典英语语法》开心 ing ！</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2016-03-09</td>
+    <td>YII</td>
+    <td>开始</td>
+    <td>开始看 YII 英文文档学习。</td>
   </tr>
   <tr>
     <td></td>
