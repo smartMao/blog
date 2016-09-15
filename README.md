@@ -123,6 +123,31 @@
     <td>开始看 YII 英文文档学习。</td>
   </tr>
   <tr>
+    <td>2016-07-11</td>
+    <td>工作</td>
+    <td>开始</td>
+    <td>实习</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
